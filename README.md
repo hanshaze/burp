@@ -1,7 +1,7 @@
 <img src="/images/burp.jpg" width="250" height="250">
 
 # burp
-BurpSuite Pro v1.7.3* licence generator + loader
+BurpSuite Pro licence generator & loader
 
 # 0x01 Run Loader & add your name 
 ![](/images/1.png)
