@@ -3,7 +3,7 @@
 This is a performance-focused Rust client that decodes Solana shred packets directly from Turbine block propagation layer. Unlike Geyser RPC or standard RPC requests, this client ensures you get transactions the instant they are propagated by the leader validator, and this provides you with an speed advantage.
 
 This decoder deserializes `buy`, `create` transactions from Pumpfun and token migrations from Pumpfun -> Raydium when the `initialize2` instruction is involved and the migration pubkey (`39azUYFWPz3VHgKCf3VChUwbpURdCHRxjWVowf5jUJjg`) is also involved.
-
+ 
 # Features:
 
 - **Optimized-advanced UDP buffer**  – To prevent packet loss, the application binds a raw UDP socket and configures `SO_RCVBUF` to a larger size, allowing it to handle bursts of incoming shreds without dropping packets.
