@@ -39,7 +39,4 @@ Before run, you will need to add the following environment variables to your `.e
 RUSTFLAGS="-C target-cpu=native" RUST_LOG=info cargo run --release --bin shredstream-decoder
 ```
 
-# Source code
-
-If you are really interested in the source code, please contact me for details and demo on Discord: `.xanr`.
 
